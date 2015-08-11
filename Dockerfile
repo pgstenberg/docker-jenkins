@@ -4,7 +4,7 @@ MAINTAINER Per-Gustaf Stenberg
 USER root
 
 #Installing core-stuff
-RUN apt-get update && apt-get -y install software-properties-common python
+RUN apt-get update && apt-get -y install software-properties-common python git
 
 #Install Java8
 RUN add-apt-repository ppa:webupd8team/java && apt-get update
